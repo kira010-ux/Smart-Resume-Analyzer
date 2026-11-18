@@ -5,3 +5,9 @@ backend/analyses.db
 frontend/node_modules/
 frontend/dist/
 *.log
+# Python build artifacts
+build/
+dist/
+backend-build/
+backend-dist/
+*.spec
