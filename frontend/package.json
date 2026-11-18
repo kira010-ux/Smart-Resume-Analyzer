@@ -1,0 +1,35 @@
+{
+  "name": "smart-resume-analyzer",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "desktop": "electron electron/main.cjs",
+    "desktop:dist": "npm run build && electron-builder"
+  },
+  "dependencies": {
+    "@vitejs/plugin-react": "latest",
+    "vite": "latest",
+    "react": "latest",
+    "react-dom": "latest"
+  },
+  "devDependencies": {
+    "electron": "latest",
+    "electron-builder": "latest"
+  },
+  "build": {
+    "appId": "com.smartresume.matchanalyzer",
+    "productName": "Smart Resume Analyzer",
+    "directories": {
+      "output": "release"
+    },
+    "files": ["dist/**/*", "electron/**/*"],
+    "extraResources": [{ "from": "../backend-dist", "to": "backend-dist" }],
+    "win": {
+      "target": "nsis"
+    }
+  }
+}
