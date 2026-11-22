@@ -60,3 +60,18 @@ The skill vocabulary contains 200 common programming, framework, platform, soft,
 \.venv\Scripts\python.exe backend\scoring.py
 Push-Location frontend; npm run build; Pop-Location
 ```
+
+## Screenshots
+
+### Dashboard
+![Dashboard](assets/dashboard.png)
+
+### Resume Upload
+![Resume Upload](assets/resume-upload.png)
+
+### Analysis Results
+![Analysis Results](assets/analysis-results.png)
+![Analysis Results](assets/analysis-results(2).png)
+
+## Demo
+[▶ Watch the Smart Resume Analyzer demo](assets/Smart Resume Analyzer-demo.mp4)
