@@ -74,4 +74,7 @@ Push-Location frontend; npm run build; Pop-Location
 ![Analysis Results](assets/analysis-results(2).png)
 
 ## Demo
-[▶ Watch the Smart Resume Analyzer demo](assets/Smart Resume Analyzer-demo.mp4)
+
+## Demo
+
+[▶ Watch the Smart Resume Analyzer demo](assets/Smart-Resume-Analyzer.mp4)
